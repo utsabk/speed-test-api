@@ -1,0 +1,23 @@
+{
+  "name": "speed-test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fast-speedtest-api": "^0.3.2",
+    "network-speed": "^2.1.1",
+    "ping": "^0.4.2",
+    "universal-speedtest": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
